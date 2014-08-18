@@ -53,7 +53,7 @@
 	[audioSession setCategory :AVAudioSessionCategoryPlayAndRecord error:&err];
     
 	if(err){
-        NSLog(@"audioSession: %@ %d %@", [err domain], [err code], [[err userInfo] description]);
+        NSLog(@"audioSession: %@ %ld %@", [err domain], (long)[err code], [[err userInfo] description]);
         return;
 	}
     
@@ -61,7 +61,7 @@
     
 	err = nil;
 	if(err){
-        NSLog(@"audioSession: %@ %d %@", [err domain], [err code], [[err userInfo] description]);
+        NSLog(@"audioSession: %@ %ld %@", [err domain], (long)[err code], [[err userInfo] description]);
         return;
 	}
 	
@@ -97,7 +97,7 @@
 	self.recorder = [[[AVAudioRecorder alloc] initWithURL:url settings:recordSetting error:&err] autorelease];
     
 	if(!_recorder){
-        NSLog(@"recorder: %@ %d %@", [err domain], [err code], [[err userInfo] description]);
+        NSLog(@"recorder: %@ %ld %@", [err domain], (long)[err code], [[err userInfo] description]);
         UIAlertView *alert =
         [[UIAlertView alloc] initWithTitle: @"Warning"
 								   message: [err localizedDescription]
