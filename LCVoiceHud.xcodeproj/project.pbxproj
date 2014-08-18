@@ -16,14 +16,14 @@
 		6F24AB971774338E00351317 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB961774338E00351317 /* Default.png */; };
 		6F24AB991774338E00351317 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB981774338E00351317 /* Default@2x.png */; };
 		6F24AB9B1774338E00351317 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB9A1774338E00351317 /* Default-568h@2x.png */; };
-		6F24ABA4177433B100351317 /* LCVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24ABA3177433B100351317 /* LCVoice.m */; };
-		6F24ABA7177433CB00351317 /* LCVoiceHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24ABA6177433CB00351317 /* LCVoiceHud.m */; };
-		6F24ABAB1774346D00351317 /* mic_normal_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */; };
-		6F24ABAC1774346D00351317 /* mic_talk_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */; };
-		6F24ABAD1774346D00351317 /* wave70x117@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABAA1774346D00351317 /* wave70x117@2x.png */; };
 		6F24ABB01774388700351317 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24ABAF1774388700351317 /* QuartzCore.framework */; };
 		6F24ABB41774417300351317 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24ABB31774417300351317 /* AVFoundation.framework */; };
-		6F24ABB6177450B100351317 /* black_bg_ip5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */; };
+		DDDAE15119A1ECDE00CAF42F /* black_bg_ip5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDAE14919A1ECDE00CAF42F /* black_bg_ip5@2x.png */; };
+		DDDAE15219A1ECDE00CAF42F /* mic_normal_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDAE14A19A1ECDE00CAF42F /* mic_normal_358x358@2x.png */; };
+		DDDAE15319A1ECDE00CAF42F /* mic_talk_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDAE14B19A1ECDE00CAF42F /* mic_talk_358x358@2x.png */; };
+		DDDAE15419A1ECDE00CAF42F /* wave70x117@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDAE14C19A1ECDE00CAF42F /* wave70x117@2x.png */; };
+		DDDAE15C19A1ED4300CAF42F /* LCVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDAE15919A1ED4300CAF42F /* LCVoice.m */; };
+		DDDAE15D19A1ED4300CAF42F /* LCVoiceHud.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDAE15B19A1ED4300CAF42F /* LCVoiceHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +40,16 @@
 		6F24AB961774338E00351317 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6F24AB981774338E00351317 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6F24AB9A1774338E00351317 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6F24ABA2177433B100351317 /* LCVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoice.h; sourceTree = "<group>"; };
-		6F24ABA3177433B100351317 /* LCVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoice.m; sourceTree = "<group>"; };
-		6F24ABA5177433CB00351317 /* LCVoiceHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoiceHud.h; sourceTree = "<group>"; };
-		6F24ABA6177433CB00351317 /* LCVoiceHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoiceHud.m; sourceTree = "<group>"; };
-		6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_normal_358x358@2x.png"; sourceTree = "<group>"; };
-		6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_talk_358x358@2x.png"; sourceTree = "<group>"; };
-		6F24ABAA1774346D00351317 /* wave70x117@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wave70x117@2x.png"; sourceTree = "<group>"; };
 		6F24ABAF1774388700351317 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6F24ABB31774417300351317 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_bg_ip5@2x.png"; sourceTree = "<group>"; };
+		DDDAE14919A1ECDE00CAF42F /* black_bg_ip5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_bg_ip5@2x.png"; sourceTree = "<group>"; };
+		DDDAE14A19A1ECDE00CAF42F /* mic_normal_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_normal_358x358@2x.png"; sourceTree = "<group>"; };
+		DDDAE14B19A1ECDE00CAF42F /* mic_talk_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_talk_358x358@2x.png"; sourceTree = "<group>"; };
+		DDDAE14C19A1ECDE00CAF42F /* wave70x117@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wave70x117@2x.png"; sourceTree = "<group>"; };
+		DDDAE15819A1ED4300CAF42F /* LCVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoice.h; sourceTree = "<group>"; };
+		DDDAE15919A1ED4300CAF42F /* LCVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoice.m; sourceTree = "<group>"; };
+		DDDAE15A19A1ED4300CAF42F /* LCVoiceHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoiceHud.h; sourceTree = "<group>"; };
+		DDDAE15B19A1ED4300CAF42F /* LCVoiceHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoiceHud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		6F24AB8A1774338E00351317 /* LCVoiceHud */ = {
 			isa = PBXGroup;
 			children = (
-				6F24ABA11774339800351317 /* LCVoice */,
+				DDDAE14719A1ECDE00CAF42F /* LCVoiceHud */,
 				6F24AB931774338E00351317 /* LCVoiceHudAppDelegate.h */,
 				6F24AB941774338E00351317 /* LCVoiceHudAppDelegate.m */,
 				6F24AB8B1774338E00351317 /* Supporting Files */,
@@ -122,27 +122,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6F24ABA11774339800351317 /* LCVoice */ = {
+		DDDAE14719A1ECDE00CAF42F /* LCVoiceHud */ = {
 			isa = PBXGroup;
 			children = (
-				6F24ABAE1774347700351317 /* Resources */,
-				6F24ABA2177433B100351317 /* LCVoice.h */,
-				6F24ABA3177433B100351317 /* LCVoice.m */,
-				6F24ABA5177433CB00351317 /* LCVoiceHud.h */,
-				6F24ABA6177433CB00351317 /* LCVoiceHud.m */,
+				DDDAE15719A1ED4300CAF42F /* Classes */,
+				DDDAE14819A1ECDE00CAF42F /* Images */,
 			);
-			name = LCVoice;
+			path = LCVoiceHud;
 			sourceTree = "<group>";
 		};
-		6F24ABAE1774347700351317 /* Resources */ = {
+		DDDAE14819A1ECDE00CAF42F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */,
-				6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */,
-				6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */,
-				6F24ABAA1774346D00351317 /* wave70x117@2x.png */,
+				DDDAE14919A1ECDE00CAF42F /* black_bg_ip5@2x.png */,
+				DDDAE14A19A1ECDE00CAF42F /* mic_normal_358x358@2x.png */,
+				DDDAE14B19A1ECDE00CAF42F /* mic_talk_358x358@2x.png */,
+				DDDAE14C19A1ECDE00CAF42F /* wave70x117@2x.png */,
 			);
-			name = Resources;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DDDAE15719A1ED4300CAF42F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDDAE15819A1ED4300CAF42F /* LCVoice.h */,
+				DDDAE15919A1ED4300CAF42F /* LCVoice.m */,
+				DDDAE15A19A1ED4300CAF42F /* LCVoiceHud.h */,
+				DDDAE15B19A1ED4300CAF42F /* LCVoiceHud.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F24AB8F1774338E00351317 /* InfoPlist.strings in Resources */,
+				DDDAE15419A1ECDE00CAF42F /* wave70x117@2x.png in Resources */,
+				DDDAE15319A1ECDE00CAF42F /* mic_talk_358x358@2x.png in Resources */,
 				6F24AB971774338E00351317 /* Default.png in Resources */,
 				6F24AB991774338E00351317 /* Default@2x.png in Resources */,
+				DDDAE15119A1ECDE00CAF42F /* black_bg_ip5@2x.png in Resources */,
+				DDDAE15219A1ECDE00CAF42F /* mic_normal_358x358@2x.png in Resources */,
 				6F24AB9B1774338E00351317 /* Default-568h@2x.png in Resources */,
-				6F24ABAB1774346D00351317 /* mic_normal_358x358@2x.png in Resources */,
-				6F24ABAC1774346D00351317 /* mic_talk_358x358@2x.png in Resources */,
-				6F24ABAD1774346D00351317 /* wave70x117@2x.png in Resources */,
-				6F24ABB6177450B100351317 /* black_bg_ip5@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F24AB911774338E00351317 /* main.m in Sources */,
+				DDDAE15D19A1ED4300CAF42F /* LCVoiceHud.m in Sources */,
+				DDDAE15C19A1ED4300CAF42F /* LCVoice.m in Sources */,
 				6F24AB951774338E00351317 /* LCVoiceHudAppDelegate.m in Sources */,
-				6F24ABA4177433B100351317 /* LCVoice.m in Sources */,
-				6F24ABA7177433CB00351317 /* LCVoiceHud.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +343,7 @@
 				6F24ABA01774338E00351317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
