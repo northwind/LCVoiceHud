@@ -141,6 +141,7 @@
 
     [self resetTimer];
     [self showVoiceHudOrHide:NO];
+    [self.recorder stop];    
 }
 
 #pragma mark - Timer Update
