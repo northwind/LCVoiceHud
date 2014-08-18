@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LCVoiceHud"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Drop-in class to record audio note in iOS application and get it back in the app."
 
   s.description  = <<-DESC
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/northwind/LCVoiceHud.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/northwind/LCVoiceHud.git", :tag => "0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
